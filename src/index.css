@@ -1,0 +1,146 @@
+
+
+
+.container {
+  max-width: auto;
+  margin: auto auto;
+  padding: 0;
+  background-color: #000000;
+
+}
+
+/* Header*/
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #000000; 
+  background-color: #00ff7b;
+}
+
+/* Formulario */
+.formulario {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #000000;
+}
+
+
+
+
+.formulario .btn-primary {
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #00ff7b;
+  box-shadow: 0 2px 4px #00ff7b
+  
+}
+
+.formulario .btn-primary:hover {
+  background-color: #00ff7b;
+  color: #000000;
+}
+
+/*barra de busqueda*/
+.mt-5 .form-control {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #00ff7b;
+  
+  
+}
+
+.mt-5 .btn-secondary {
+  margin-top: 10px;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #00ff7b;
+  box-shadow: 0 2px 4px #00ff7b;
+
+}
+
+.mt-5 .btn-secondary:hover {
+  background-color: #00ff7b;
+  color: #000000;
+  
+}
+
+/* Cards */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #00ff7b;
+  border-bottom: none;
+}
+
+.card-header .btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.card-header .btn-primary {
+  background-color: #ffffff;
+  border: none;
+}
+
+.card-header .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card-header .btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.card-header .btn-danger:hover {
+  background-color: #c82333;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+/* Paginacion */
+.pagination {
+  margin-top: 30px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #00ff7b;
+  border-color: #ffffff;
+}
+
+.pagination .page-link {
+  color: #00ff7b;
+  border-radius: 5px;
+}
+
+.pagination .page-link:hover {
+  background-color: #000000;
+  border-color: #00ff7b;
+  color: #00ff7b;
+}
+
+.pagination-lg .page-link {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  color: rgb(0, 0, 0);
+}
